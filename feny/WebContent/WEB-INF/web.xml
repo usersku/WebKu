@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>Jsp</display-name>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>stus</display-name>
+    <servlet-name>stus</servlet-name>
+    <servlet-class>edu.tinzel.stus.servlet.StusServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>stus</servlet-name>
+    <url-pattern>/stus</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>auto</display-name>
+    <servlet-name>auto</servlet-name>
+    <servlet-class>edu.tinzel.stus.servlet.AutoServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>auto</servlet-name>
+    <url-pattern>/auto</url-pattern>
+  </servlet-mapping>
+</web-app>
